@@ -154,7 +154,7 @@
     <!-- ==========main section start========== -->
     <main class="container-fluid">
       <!-- course section start -->
-      <section class="mx-5 mt-2 mt-md-3 mt-lg-5">
+      <section class="mx-5 mb-5 mt-2 mt-md-3 mt-lg-5">
         <!-- title -->
         <div class="text-center pt-5">
           <h2 class="fw-bold py-1">Discover Our Popular Courses</h2>
@@ -327,8 +327,10 @@
       </section>
       <!-- course section end -->
       <!-- register section start -->
-      <!-- text-center bg-primary d-flex justify-content-center align-items-center -->
-      <section style="height: 300px" class="container rounded-3 bg-primary">
+      <section
+        style="height: 300px"
+        class="container rounded-3 bg-primary my-5"
+      >
         <div class="d-lg-flex justify-content-around">
           <div class="pt-5 mt-5 -pb-lg-5 text-white">
             <h2 class="fw-bold text-center">Ready to join?</h2>
@@ -424,6 +426,260 @@
         </div>
       </section>
       <!-- register section end -->
+      <!-- FAQ section start -->
+      <section class="py-5 mt-5 text-center">
+        <h2>Frequently Asked Questions</h2>
+        <p>
+          Here you will get answers of some common questions that our visitors
+          asks frequently
+        </p>
+        <!-- accordion desktop-->
+        <div
+          class="accordion mx-auto mt-4 w-50 d-none d-lg-block"
+          id="accordionExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Q1. What are the differences between Flexbox and Grid?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                The basic difference between CSS Grid Layout and CSS Flexbox
+                Layout is that flexbox was designed for layout in one dimension
+                - either a row or a column. Grid was designed for
+                two-dimensional layout - rows, and columns at the same time. The
+                two specifications share some common features, however, and if
+                you have already learned how to use flexbox, the similarities
+                should help you get to grips with Grid.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Q2. What are the differences between Bootstrap and Tailwind?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Bootstrap has pre-built components that provide a responsive UI
+                kit. On the other hand, Tailwind comes with predesigned widgets
+                that facilitate web developers to design a website from scratch.
+                Both of them are two of the best front-end CSS framework used
+                worldwide. Bootstrap is a front-end framework to develop
+                websites based on the CSS framework. Tailwind is also a CSS
+                framework responsible for creating a website.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Q3. What is CSS Box Model?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                In CSS, the term "box model" is used when talking about design
+                and layout. The CSS box model is essentially a box that wraps
+                around every HTML element. It consists of: margins, borders,
+                padding, and the actual content. The box model allows us to add
+                a border around elements, and to define space between elements.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Q4. What is a semantic tag?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Semantic HTML elements are those that clearly describe their
+                meaning in a human- and machine-readable way. Elements such as
+                &lt;header&gt;, &lt;footer&gt; and &lt;article&gt; are all
+                considered semantic because they accurately describe the purpose
+                of the element and the type of content that is inside them.
+                Semantic tags also help search engines to parse the webpage
+                correctly and find accurate information.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion mobile & tablet view-->
+        <div class="accordion container mt-4 d-lg-none" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Q1. What are the differences between Flexbox and Grid?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                The basic difference between CSS Grid Layout and CSS Flexbox
+                Layout is that flexbox was designed for layout in one dimension
+                - either a row or a column. Grid was designed for
+                two-dimensional layout - rows, and columns at the same time. The
+                two specifications share some common features, however, and if
+                you have already learned how to use flexbox, the similarities
+                should help you get to grips with Grid.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Q2. What are the differences between Bootstrap and Tailwind?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Bootstrap has pre-built components that provide a responsive UI
+                kit. On the other hand, Tailwind comes with predesigned widgets
+                that facilitate web developers to design a website from scratch.
+                Both of them are two of the best front-end CSS framework used
+                worldwide. Bootstrap is a front-end framework to develop
+                websites based on the CSS framework. Tailwind is also a CSS
+                framework responsible for creating a website.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Q3. What is CSS Box Model?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                In CSS, the term "box model" is used when talking about design
+                and layout. The CSS box model is essentially a box that wraps
+                around every HTML element. It consists of: margins, borders,
+                padding, and the actual content. The box model allows us to add
+                a border around elements, and to define space between elements.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Q4. What is a semantic tag?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Semantic HTML elements are those that clearly describe their
+                meaning in a human- and machine-readable way. Elements such as
+                &lt;header&gt;, &lt;footer&gt; and &lt;article&gt; are all
+                considered semantic because they accurately describe the purpose
+                of the element and the type of content that is inside them.
+                Semantic tags also help search engines to parse the webpage
+                correctly and find accurate information.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ section end -->
     </main>
     <!-- ==========main section end========== -->
     <script
